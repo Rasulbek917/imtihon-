@@ -1,0 +1,1245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #ff4a4a;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0d0e12;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease;
+}
+
+.menyu ul {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.qizil-yozuv {
+    color: #ff4d4d;
+}
+
+.qizil-belgi {
+    color: #ff4d4d;
+    margin-right: 10px;
+}
+
+.kichik-yozuv {
+    color: #ff4d4d;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tugma {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.qizil-tugma {
+    background: #ff4a4a;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 74, 74, 0.4);
+}
+
+.qizil-tugma:hover {
+    background: #ff6b6b;
+    box-shadow: 0 6px 20px rgba(255, 74, 74, 0.6);
+}
+
+.qora-tugma {
+    background-color: #1a1c23;
+    color: white;
+    border: 1px solid #2a2d39;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.qora-tugma:hover {
+    background-color: #242731;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    border-color: #3b3f4f;
+}
+
+.katta {
+    padding: 14px 28px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.tepa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(13, 14, 18, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.harf {
+    background: #ff4a4a;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.menyu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.menyu a {
+    color: #a0aab2;
+    font-size: 14px;
+}
+
+.menyu a:hover {
+    color: white;
+}
+
+.kirish {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.birinchi-bolim {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.chiroq {
+    padding-left: 40px;
+}
+
+.yon span {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+body {
+    margin: 0;
+    background: #0d0d14;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    padding: 80px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.text-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.version {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background-color: #6d5f5ed7;
+    border: 1px solid #be2121;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #a0aab2;
+}
+
+.version i {
+    width: 8px;
+    height: 8px;
+    background-color: #7fff4d;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.8);
+    display: inline-block;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(77, 255, 104, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 77, 77, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
+    }
+}
+
+.text-content h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.text-content h1 b {
+    color: #ff4d4d;
+}
+
+.text-content p {
+    color: #a0aab2;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.btns a:nth-child(1) {
+    background: #ff4a4a;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 74, 74, 0.4);
+    transition: 0.3s;
+}
+
+.btns a:nth-child(1):hover {
+    background: #ff6b6b;
+    box-shadow: 0 6px 20px rgba(255, 74, 74, 0.6);
+}
+
+.btns a:nth-child(2) {
+    background-color: #1a1c23;
+    color: white;
+    border: 1px solid #2a2d39;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.btns a:nth-child(2):hover {
+    background-color: #242731;
+    border-color: #3b3f4f;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card img {
+    border-radius: 16px;
+    max-width: 100%;
+    border: 1px solid #2a2d39;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.engtagidagidivlar {
+    margin-top: 20px;
+}
+
+.text-birinchi {
+    color: #a0aab2;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.engtagidagidivlar-logolar-1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dnx {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #646b7a;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+.tortburchak-icon {
+    width: 14px;
+    height: 14px;
+    background-color: #646b7a;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
+}
+
+/* 
+.engtagidagidivlar-logolar-1 span:hover {
+    color: white;
+} */
+.dnx:hover {
+    color: white;
+    transition: all;
+}
+
+
+.features {
+    padding: 100px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sarlavha-qismi .kichik-yozuv {
+    color: #ff4a4a;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.birinchi-yozuv {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.matn {
+    color: #a0aab2;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.knopkalar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1a1c23;
+    padding: 8px;
+    border-radius: 40px;
+    max-width: max-content;
+    margin: 0 auto 80px auto;
+    border: 1px solid #2a2d39;
+    flex-wrap: wrap;
+}
+
+.tab-line {
+    position: absolute;
+    top: 8px; /* padding offset */
+    bottom: 8px;
+    left: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
+.tab-line span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ff4a4a;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.knopka,
+.aktiv-knopka {
+    position: relative;
+    z-index: 1;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.knopka {
+    background: transparent;
+    color: #a0aab2;
+}
+
+.knopka:hover {
+    color: white;
+}
+
+.aktiv-knopka {
+    background-color: #ff4a4a;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 74, 74, 0.4);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: left;
+}
+
+.content .birinchi-bolim {
+    flex: 1;
+    max-width: 450px;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.icon-quti {
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 74, 74, 0.1);
+    border: 1px solid rgba(255, 74, 74, 0.2);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4a4a;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.kichik-sarlavha {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.real-time {
+    color: #a0aab2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.royxatlar {
+    list-style: none;
+    padding: 0;
+}
+
+.royxat {
+    color: #a0aab2;
+    font-size: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+
+
+}
+
+.ptichka {
+    color: #ff4a4a;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ikkinchi-bolim {
+    flex: 1.2;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.rasm {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2a2d39;
+}
+
+.sanaydigan-bolim {
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 60px auto;
+    border-top: 1px solid #2a2d39;
+}
+
+.sanaydiganlar-qutisi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sanaydigan {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.chiziqli-border {
+    border-left: 1px solid #3b3f4f;
+}
+
+.ass99-sanay {
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+.ass99-matn {
+    font-size: 14px;
+    color: #646b7a;
+    font-weight: 600;
+}
+
+.divlar {
+    text-align: center;
+}
+
+.divlar h3 {
+    color: red;
+}
+
+.pricing-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 60px 0;
+}
+
+.toggle-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.label-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #646b7a;
+    transition: 0.3s;
+}
+
+.label-text.active {
+    color: white;
+}
+
+.switch {
+    position: relative;
+    width: 44px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1a1c23;
+    border: 1px solid #2a2d39;
+    border-radius: 22px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background: #646b7a;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.switch input:checked+.slider {
+    background: #2a2d39;
+}
+
+.switch input:checked+.slider:before {
+    transform: translateX(22px);
+    background: #ff4a4a;
+    box-shadow: 0 0 10px rgba(255, 74, 74, 0.4);
+}
+
+.save-badge {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 800;
+    border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0 5% 100px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: #16181d;
+    border: 1px solid #2a2d39;
+    border-radius: 20px;
+    padding: 40px 30px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+}
+
+.pricing-card.popular {
+    border: 1px solid #ff4a4a;
+    background: #1a1c23;
+    box-shadow: 0 20px 40px rgba(255, 74, 74, 0.05);
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4a4a;
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 6px 14px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 74, 74, 0.5);
+    white-space: nowrap;
+}
+
+.plan-name {
+    color: #a0aab2;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.plan-price {
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 5px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.plan-price span {
+    font-size: 72px;
+}
+
+.plan-price::before {
+    content: '$';
+    font-size: 32px;
+    margin-top: 10px;
+    margin-right: 2px;
+    color: #646b7a;
+}
+
+.pricing-card:first-child .plan-price::before {
+    display: none;
+}
+
+.plan-description {
+    color: #646b7a;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.pricing-btn {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.pricing-card.popular .pricing-btn {
+    box-shadow: 0 10px 20px rgba(255, 74, 74, 0.3);
+}
+
+.pricing-card:not(.popular) .pricing-btn {
+    background: transparent;
+    border: 1px solid #2a2d39;
+    color: white;
+}
+
+.pricing-card:not(.popular) .pricing-btn:hover {
+    background: #1a1c23;
+    border-color: #3b3f4f;
+}
+
+.plan-features {
+    text-align: left;
+    border-top: 1px solid #2a2d39;
+    padding-top: 30px;
+}
+
+.plan-features li {
+    font-size: 14px;
+    color: #a0aab2;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.plan-features i {
+    color: #ff4a4a;
+    font-size: 12px;
+}
+
+.p-white {
+    color: white;
+}
+
+.footer-oy {
+    text-align: center;
+    padding: 60px 0 100px 0;
+    border-bottom: 1px solid #2a2d39;
+}
+
+.obuna-qutisi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1c23;
+    border: 1px solid #2a2d39;
+    padding: 6px;
+    border-radius: 14px;
+    max-width: 480px;
+    margin: 0 auto 30px auto;
+    transition: 0.3s;
+}
+
+.obuna-qutisi:focus-within {
+    border-color: #4a4d61;
+}
+
+.obuna-qutisi.xato {
+    border-color: #ff4a4a;
+    box-shadow: 0 0 10px rgba(255, 74, 74, 0.2);
+}
+
+.obuna-inputi {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 15px;
+    flex: 1;
+    outline: none;
+    width: 60%;
+}
+
+.obuna-inputi::placeholder {
+    color: #646b7a;
+}
+
+.obuna-tugmasi {
+    background: #ff4a4a;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 74, 74, 0.4);
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.obuna-tugmasi:hover {
+    background: #ff6b6b;
+    box-shadow: 0 6px 20px rgba(255, 74, 74, 0.6);
+}
+
+.obuna-xususiyatlar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #646b7a;
+    font-size: 14px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.obuna-xususiyat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.obuna-ptichka {
+    color: #ff4a4a;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bottom-qism {
+    max-width: 1200px;
+    margin: 60px auto 0 auto;
+    padding-top: 40px;
+}
+
+.bottom-menyu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.bottom-menyu a {
+    color: #646b7a;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.bottom-menyu a:hover {
+    color: white;
+}
+
+.bottom-menyu .nuqta {
+    color: #3b3f4f;
+    font-weight: bold;
+}
+
+.bottom-chiziq {
+    height: 1px;
+    background-color: #2a2d39;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.bottom-malumot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #646b7a;
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.avtorlik-huquqi {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ijtimoiy-tarmoqlar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ijtimoiy-tarmoqlar a {
+    color: #646b7a;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.ijtimoiy-tarmoqlar a:hover {
+    color: white;
+}
+
+.vertikal-chiziq {
+    width: 1px;
+    height: 15px;
+    background-color: #2a2d39;
+    margin: 0 5px;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.mobile-login {
+    display: none;
+}
+
+.bars {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bars {
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    #menuList {
+        position: fixed;
+        top: 75px;
+        left: 5%;
+        right: 5%;
+        background-color: rgba(13, 14, 18, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+        overflow-y: auto;
+        display: none;
+        z-index: 999999;
+        gap: 10px;
+        max-height: 80vh;
+    }
+
+    .desk-only {
+        display: none;
+    }
+
+    #menuList li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menuList li a {
+        display: block;
+        padding: 10px;
+        color: #fff !important;
+    }
+
+    .mobile-login {
+        display: block !important;
+    }
+
+    .tepa {
+        padding: 15px 5%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menyu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+
+    .text-hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .btns {
+        justify-content: center;
+    }
+
+    .card {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .kirish .tugma {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .engtagidagidivlar-logolar-1 {
+        justify-content: center;
+    }
+
+    .engtagidagidivlar {
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content .birinchi-bolim {
+        max-width: 100%;
+    }
+
+    .icon-quti {
+        margin: 0 auto 30px auto;
+    }
+
+    .royxatlar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .royxat {
+        justify-content: center;
+    }
+
+    .sanaydiganlar-qutisi {
+        flex-wrap: wrap;
+        gap: 30px 0;
+    }
+
+    .sanaydigan {
+        flex: 0 0 50%;
+    }
+
+    .chiziqli-border {
+        border-left: none;
+    }
+
+    .pricing-cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .kirish .oddiy-silka {
+        display: none;
+    }
+
+
+    .text-content h1 {
+        font-size: 48px;
+    }
+
+    .birinchi-yozuv {
+        font-size: 36px;
+    }
+
+    .kichik-sarlavha {
+        font-size: 28px;
+    }
+
+    .knopkalar {
+        flex-direction: column;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .knopka,
+    .aktiv-knopka {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .obuna-qutisi {
+        flex-direction: column;
+        gap: 10px;
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    .obuna-inputi {
+        width: 100%;
+        background-color: #1a1c23;
+        border: 1px solid #2a2d39;
+        border-radius: 10px;
+    }
+
+    .obuna-tugmasi {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-malumot {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bottom-menyu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .bottom-menyu .nuqta {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .tepa {
+        padding: 12px 5%;
+    }
+
+    .kirish .tugma {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .logo span {
+        display: none;
+    }
+
+    .menyu {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .text-content h1 {
+        font-size: 36px;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    .btns a:nth-child(1),
+    .btns a:nth-child(2) {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sanaydigan {
+        flex: 0 0 100%;
+        border-bottom: 1px solid #2a2d39;
+        padding-bottom: 20px;
+    }
+
+    .sanaydigan:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .pricing-cards {
+        padding: 0 10px 50px 10px;
+    }
+
+    .pricing-card {
+        min-width: unset;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .pricing-card.popular {
+        transform: scale(1);
+        margin-top: 20px;
+    }
+
+    .kirish .tugma {
+        width: 100px;
+        font-size: 10px;
+    }
+}
