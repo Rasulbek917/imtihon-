@@ -5,11 +5,14 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 :root {
     --primary-color: #ff4a4a;
 
 }
 
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 html {
     scroll-behavior: smooth;
 }
@@ -27,6 +30,7 @@ a {
     transition: 0.3s ease;
 }
 
+<<<<<<< HEAD
 .menyu ul {
     display: flex;
     gap: 30px;
@@ -34,6 +38,8 @@ a {
     align-items: center;
 }
 
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 ul {
     list-style: none;
 }
@@ -133,8 +139,11 @@ ul {
 .menyu {
     display: flex;
     gap: 30px;
+<<<<<<< HEAD
     align-items: center;
 
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 }
 
 .menyu a {
@@ -153,8 +162,12 @@ ul {
 }
 
 .birinchi-bolim {
+<<<<<<< HEAD
     width: 100%;
     max-width: 1200px;
+=======
+    width: 1200px;
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
     padding-top: 50px;
     margin: 0 auto;
 }
@@ -206,7 +219,11 @@ body {
     margin-bottom: 25px;
     color: #a0aab2;
 }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 .version i {
     width: 8px;
     height: 8px;
@@ -218,6 +235,7 @@ body {
 }
 
 @keyframes pulse {
+<<<<<<< HEAD
     0% {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(77, 255, 104, 0.7);
@@ -232,6 +250,11 @@ body {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
     }
+=======
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(77, 255, 104, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 77, 77, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 77, 77, 0); }
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 }
 
 .text-content h1 {
@@ -346,7 +369,10 @@ body {
     border-radius: 3px;
     position: relative;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 /* 
 .engtagidagidivlar-logolar-1 span:hover {
     color: white;
@@ -390,7 +416,10 @@ body {
 }
 
 .knopkalar {
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -403,6 +432,7 @@ body {
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .tab-line {
     position: absolute;
     top: 8px; /* padding offset */
@@ -425,6 +455,9 @@ body {
 .aktiv-knopka {
     position: relative;
     z-index: 1;
+=======
+.knopka, .aktiv-knopka {
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
     border: none;
     padding: 12px 24px;
     border-radius: 30px;
@@ -503,8 +536,13 @@ body {
     font-size: 15px;
     margin-bottom: 15px;
     align-items: center;
+<<<<<<< HEAD
 
 
+=======
+    
+    
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 }
 
 .ptichka {
@@ -548,7 +586,11 @@ body {
 }
 
 .chiziqli-border {
+<<<<<<< HEAD
     border-left: 1px solid #3b3f4f;
+=======
+    border-left: 1px solid #3b3f4f; 
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 }
 
 .ass99-sanay {
@@ -558,13 +600,17 @@ body {
     margin-bottom: 5px;
     letter-spacing: -1px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
 .ass99-matn {
     font-size: 14px;
     color: #646b7a;
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 .divlar {
     text-align: center;
 }
@@ -1243,3 +1289,5 @@ body {
         font-size: 10px;
     }
 }
+=======
+>>>>>>> 1acf5d3bcefc42fe1a421dda9bec3bf82e1aa785
